@@ -20,5 +20,4 @@ V	< 20 MB [2]	    <1s     (see https://github.com/vlang/vc/blob/master/v.c)
 So...
 CAN I REALLY DEVELOP A MAINTAINABLE SOFTWARE WITH V's SIMPLICITY?
 Let's learn and find out! :)
-
 */

@@ -8,7 +8,7 @@ fn main()
 }
 /*
 This is a great and unique feature. Hoistings in C, C++, Java and Python requires declaration
-of functions and variables prior to their execution.
+of functions prior to their execution.
 */
 fn add(x int, y int) int 
 {
