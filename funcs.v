@@ -6,7 +6,10 @@ fn main()
 	println(divd(4,2))
 
 }
-
+/*
+This is a great and unique feature. Hoistings in C, C++, Java and Python requires declaration
+of functions and variables prior to their execution.
+*/
 fn add(x int, y int) int 
 {
 	return x + y
