@@ -14,4 +14,18 @@ fn main()
 	println(raw_s)
 	raw_s = r"\n\r"
 	println(raw_s)
+
+	// String to int conversion
+	s := '42'
+	n := s.int() // 42
+	
+	// all int literals are supported
+	n195 := '0xc3'.int()
+	n8 := '0o10'.int()
+	n3850 := '0b1111_0000_1010'.int()
+	neg3850 := '-0b1111_0000_1010'.int()
+	println(n195)
+	println(n8)
+	println(n3850)
+	println(neg3850)
 }
