@@ -1,6 +1,6 @@
 rocket := `🚀`
 println(rocket)
-println(rocket[0])
+// println(rocket[0]) Index not supported
 
 hello := 'Hello World 👋'
 println(hello)
