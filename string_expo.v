@@ -48,4 +48,6 @@ fn main()
 	mut greeting := 'hello '
 	greeting += 'world' // `+=` is used to append to a string
 	println(greeting) // "hello world"
+	age := 11
+	println('age = ' + age.str())
 }
