@@ -8,4 +8,10 @@ fn main()
 	println(name.len)	
 	star_str := '\u2605'
 	println(star_str)
+
+	// Raw string - try \n \r
+	mut raw_s := "\n\r"
+	println(raw_s)
+	raw_s = r"\n\r"
+	println(raw_s)
 }
