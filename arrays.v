@@ -15,3 +15,9 @@ mut names := ['John']
 names << 'Peter'
 names << 'Sam'
 println(names)
+
+mut nums_c := [1, 2, 3]
+println(nums_c.len) // "3"
+println(nums_c.cap) // "3" or greater
+nums_c = [] // The array is now empty
+println(nums_c.len) // "0"
