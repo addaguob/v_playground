@@ -33,6 +33,7 @@ println(arr[1])
 println(arr[2])
 mut numbers := []int{cap: 1000}
 println(numbers.len) // 0
+
 // Now appending elements won't reallocate
 for i in 0 .. 1000 {
 	numbers << i
