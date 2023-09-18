@@ -21,3 +21,9 @@ println(nums_c.len) // "3"
 println(nums_c.cap) // "3" or greater
 nums_c = [] // The array is now empty
 println(nums_c.len) // "0"
+
+arr := []int{len: 5, init: -1}
+// `arr == [-1, -1, -1, -1, -1]`, arr.cap == 5
+
+// Declare an empty array:
+users := []int{}
