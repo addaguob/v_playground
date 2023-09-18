@@ -27,3 +27,7 @@ arr := []int{len: 5, init: -1}
 
 // Declare an empty array:
 users := []int{}
+
+println(arr[0])
+println(arr[1])
+println(arr[2])
