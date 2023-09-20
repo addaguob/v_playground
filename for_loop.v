@@ -1,5 +1,7 @@
 fn main() 
 {
-	x := 1
-	println(x)
+	for i in 1..100
+	{
+		print(i.str() + " ")
+	}
 }
