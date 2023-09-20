@@ -1,7 +1,1 @@
-fn main() 
-{
-	for i in 1..100
-	{
-		print(i.str() + " ")
-	}
-}
+fn main() { for i in 1..50 { print(i.str() + " ") } }
