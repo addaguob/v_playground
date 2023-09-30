@@ -7,4 +7,8 @@ fn main()
 	// Filter with anonymous function
 	even_fn := nums.filter(fn (x int) bool { return x % 2 == 0 })
 	println(even_fn)
+
+	words := ["Hello", "world!"]
+	words_upper := words.map(it.to_upper())
+	println(words_upper)
 }
