@@ -16,4 +16,9 @@ fn main()
 	// Map with anonymous function
 	words_fn := words.map(fn (w string) string {return w.to_upper()})
 	println(words_fn)
+
+	// Any and all built-in methods
+	otp_nums := [1, 4, 3, 4, 4]
+	println(otp_nums.any(it == 3))
+	println(otp_nums.all(it < 5))
 }
