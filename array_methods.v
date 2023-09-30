@@ -20,5 +20,10 @@ fn main()
 	// Any and all built-in methods
 	otp_nums := [1, 4, 3, 4, 4]
 	println(otp_nums.any(it == 3))
-	println(otp_nums.all(it < 5))
+	println(otp_nums.all(it < 5)) 
+
+	// Repeat concatenate
+	greeting := "Hello"
+	greeting_2 := "143".repeat(5)
+	println(greeting_2)
 }
