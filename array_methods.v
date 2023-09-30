@@ -5,10 +5,15 @@ fn main()
 	println(even)
 
 	// Filter with anonymous function
-	even_fn := nums.filter(fn (x int) bool { return x % 2 == 0 })
+	even_fn := nums.filter(fn (x int) bool {return x % 2 == 0})
 	println(even_fn)
 
+	// Map and to_upper
 	words := ["Hello", "world!"]
 	words_upper := words.map(it.to_upper())
 	println(words_upper)
+
+	// Map with anonymous function
+	words_fn := words.map(fn (w string) string {return w.to_upper()})
+	println(words_fn)
 }
