@@ -14,4 +14,14 @@ fn main()
 	for i in arr_ind {
 		println(i)
 	}
+
+	//Explore difference between copying and cloing arrays
+	mut arr_to_clone := [1, 4, 3]
+
+	// error: use `array2 := array1.clone()` instead of `array2 := array1` (or use `unsafe`)
+	// mut arr_assign_only := arr_to_clone 
+
+	mut arr_assign_only := arr_to_clone.clone()
+
+	println(arr_assign_only)
 }
