@@ -30,4 +30,7 @@ fn main()
 	mut int_array := [1, 4, 3]
 	int_array.insert(0, [0, 0])
 	println(int_array)
+	mut str_2 := "Hahaha"
+	str_2.insert(0, ['B,' 'w', 'a']) // Does not work
+	println(str_2)
 }
