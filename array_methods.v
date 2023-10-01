@@ -33,5 +33,6 @@ fn main()
 	mut str_2 := "Hahaha"
 	// str_2.insert(0, ['B,' 'w', 'a']) // Does not work
 	// str_2.prepend("Bwa") // Does not work too
+	// str_2.join("bwa") // Does not work. Maybe because str_2 is just string? Not []string?
 	println(str_2)
 }
