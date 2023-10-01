@@ -35,4 +35,8 @@ fn main()
 	// str_2.prepend("Bwa") // Does not work too
 	// str_2.join("bwa") // Does not work. Maybe because str_2 is just string? Not []string?
 	println(str_2)
+	//Okay, let's try []string
+	mut st_arr := []string
+	st_arr.join("Hi")
+	println(st_arr)
 }
