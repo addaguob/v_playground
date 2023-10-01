@@ -23,7 +23,11 @@ fn main()
 	println(otp_nums.all(it < 5)) 
 
 	// Repeat concatenate
-	greeting := "Hello"
-	greeting_2 := "143".repeat(5)
-	println(greeting_2)
+	mut laugh := "Ha"
+	mut laugh_2 := laugh.repeat(5)
+	println(laugh_2)
+	// Insert value to an index
+	mut int_array := [1, 4, 3]
+	int_array.insert(0, [0, 0])
+	println(int_array)
 }
