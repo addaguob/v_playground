@@ -37,6 +37,7 @@ fn main()
 	println(str_2)
 	//Okay, let's try []string
 	mut st_arr := []string
+	st_arr.insert(0, "One")
 	st_arr.join("Hi")
 	println(st_arr)
 }
