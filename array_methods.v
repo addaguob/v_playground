@@ -40,4 +40,10 @@ fn main()
 	st_arr.insert(0, "One")
 	st_arr.join("Hi")
 	println(st_arr)
+
+	mut numbers := [1, 3, 2]
+	numbers.sort() // 1, 2, 3
+	println(numbers)
+	numbers.sort(a > b) // 3, 2, 1
+	println(numbers)
 }
