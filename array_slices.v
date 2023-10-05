@@ -14,3 +14,7 @@ println(arr2) // ... is index:len by default
 // No left index
 arr2 = arr1[..3]
 println(arr2) // ...is index:0 by default
+
+// 2nd and 4th indices
+arr2 = arr1[1..3]
+println(arr2)
