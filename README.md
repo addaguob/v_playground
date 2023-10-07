@@ -1,9 +1,7 @@
 # v_playground
 I was a fan of V for Vendetta film and now, I have this academic curiosity...
 
-"Voilà!
-
-In view, a humble vaudevillian veteran, cast vicariously as both victim and villain by the vicissitudes of Fate. This visage, no mere veneer of vanity, is a vestige of the vox populi, now vacant, vanished. However, this valorous visitation of a by-gone vexation stands vivified, and has vowed to vanquish these venal and virulent vermin vanguarding vice and vouchsafing the violently vicious and voracious violation of volition.
+"Voilà! In view, a humble vaudevillian veteran, cast vicariously as both victim and villain by the vicissitudes of Fate. This visage, no mere veneer of vanity, is a vestige of the vox populi, now vacant, vanished. However, this valorous visitation of a by-gone vexation stands vivified, and has vowed to vanquish these venal and virulent vermin vanguarding vice and vouchsafing the violently vicious and voracious violation of volition.
 
 [carves V into wall]
 
@@ -19,16 +17,12 @@ Verily, this vichyssoise of verbiage veers most verbose, so let me simply add th
 Seriously, what greatly interests me about the V Programming Language is this:
 
 The comparison of V with other great compilers, along with each space and time required to build each compiler:
-Space  	Build       time
-Go	    525 MB	    1m 33s
-Rust	30 GB	    45m
-GCC	    8 GB	    50m
-Clang	90 GB [0]	60m     (see: https://lists.llvm.org/pipermail/llvm-dev/2019-April/132028.html)
-Swift	70 GB [1]	90m     (see: https://github.com/apple/swift/blob/1f9da381dcdef98df2a7313d8729750cbac54f45
-                                /README. md#getting-started)
-V	< 20 MB [2]	    <1s     (see https://github.com/vlang/vc/blob/master/v.c)
+(Space, Build time)
+Go (525 MB,1m 33s),
+Rust	(30 GB, 45m),
+GCC (8 GB, 50m),
+Clang	(90 GB, 60m see: https://lists.llvm.org/pipermail/llvm-dev/2019-April/132028.html)
+Swift	(70 GB,	90m see: https://github.com/apple/swift/blob/1f9da381dcdef98df2a7313d8729750cbac54f45/README. md#getting-started), and 
+V	(< 20 MB, <1s see https://github.com/vlang/vc/blob/master/v.c)
 
-
-So...
-CAN I REALLY DEVELOP A MAINTAINABLE SOFTWARE WITH V's SIMPLICITY?
-Let's learn and find out! :)
+Compare V with some languages: https://vlang.io/compare
