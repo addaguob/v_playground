@@ -27,3 +27,17 @@ b << 9
 // `b` has been reallocated and is now independent from `a`
 println(a) // `[0, 1, 7, 3, 4, 5]` - no change
 println(b) // `[7, 3, 9]`
+
+// Slice with negative index
+users := ['admin', 'standard', 'friends ', 'guest']
+// Print last user
+println(users)
+neg_sliced := users#[-1..-3]
+println(neg_sliced) // Doesn't work 
+
+n_arr := []int{len:5, init:index}
+println(n_arr)
+mut ns_arr := n_arr#[-1..]
+println(ns_arr)
+ns_arr := n_arr#[..-1]
+println(ns_arr) // Mut doesn't work
