@@ -18,7 +18,7 @@ Seriously, what greatly interests me about the V Programming Language is this:
 
 The comparison of V with other great compilers, along with each space and time required to build each compiler:
 (Space, Build time)
-Go (525 MB,1m 33s),
+Go (525 MB, 1m 33s),
 Rust	(30 GB, 45m),
 GCC (8 GB, 50m),
 Clang	(90 GB, 60m see: https://lists.llvm.org/pipermail/llvm-dev/2019-April/132028.html)
