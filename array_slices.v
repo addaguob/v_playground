@@ -41,3 +41,15 @@ mut ns_arr := n_arr#[-1..]
 println(ns_arr)
 ns_arr := n_arr#[..-1]
 println(ns_arr) // Mut doesn't work
+
+// Negative index
+a := [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+println(a#[-3..]) // [7, 8, 9]
+println(a#[-20..]) // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+println(a#[-20..-8]) // [0, 1]
+println(a#[..-3]) // [0, 1, 2, 3, 4, 5, 6]
+
+// empty arrays
+println(a#[-20..-10]) // []
+println(a#[20..10]) // []
+println(a#[20..30]) // []
