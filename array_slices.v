@@ -28,6 +28,9 @@ b << 9
 println(a) // `[0, 1, 7, 3, 4, 5]` - no change
 println(b) // `[7, 3, 9]`
 
+
+// TODO: Check if these have different results in V Console
+
 // Slice with negative index
 users := ['admin', 'standard', 'friends ', 'guest']
 // Print last user
