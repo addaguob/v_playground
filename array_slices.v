@@ -27,3 +27,32 @@ b << 9
 // `b` has been reallocated and is now independent from `a`
 println(a) // `[0, 1, 7, 3, 4, 5]` - no change
 println(b) // `[7, 3, 9]`
+
+
+// TODO: Check if these have different results in V Console
+
+// Slice with negative index
+users := ['admin', 'standard', 'friends ', 'guest']
+// Print last user
+println(users)
+neg_sliced := users#[-1..-3]
+println(neg_sliced) // Doesn't work 
+
+n_arr := []int{len:5, init:index}
+println(n_arr)
+mut ns_arr := n_arr#[-1..]
+println(ns_arr)
+ns_arr := n_arr#[..-1]
+println(ns_arr) // Mut doesn't work
+
+// Negative index
+a := [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+println(a#[-3..]) // [7, 8, 9]
+println(a#[-20..]) // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+println(a#[-20..-8]) // [0, 1]
+println(a#[..-3]) // [0, 1, 2, 3, 4, 5, 6]
+
+// empty arrays
+println(a#[-20..-10]) // []
+println(a#[20..10]) // []
+println(a#[20..30]) // []
