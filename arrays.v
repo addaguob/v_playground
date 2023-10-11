@@ -26,20 +26,20 @@ arr := []int{len: 5, init: -1}
 // `arr == [-1, -1, -1, -1, -1]`, arr.cap == 5
 
 // Declare an empty array:
+println("Declare an empty array:")
 users := []int{}
-
 println(arr[0])
 println(arr[1])
 println(arr[2])
 mut numbers := []int{cap: 1000}
 println(numbers.len) // 0
-
 // Now appending elements won't reallocate
+println("Now appending elements won't reallocate")
 for i in 0 .. 1000 {
 	numbers << i
 }
 
-
+println("fnums is a fixed size array with 3 elements.")
 mut fnums := [3]int{} // fnums is a fixed size array with 3 elements.
 fnums[0] = 1
 fnums[1] = 10
