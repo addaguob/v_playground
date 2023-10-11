@@ -9,7 +9,7 @@ fn main()
 	}
 
 	println("")
-
+	println("Initialize using array indices:")
 	arr_ind := [] int {len: 10, init: index}
 	for i in arr_ind {
 		println(i)
