@@ -34,19 +34,22 @@ println(b) // `[7, 3, 9]`
 // Slice with negative index
 println("Slice with negative index")
 users := ['admin', 'standard', 'friends ', 'guest']
-// Print last user
 println(users)
-neg_sliced := users#[-1..-3]
-println(neg_sliced) // Doesn't work 
+
+// Print last user
+println("Print last user:")
+last_user := users#[-1..]
+println(last_user) 
+
 
 n_arr := []int{len:5, init:index}
 println(n_arr)
 mut ns_arr := n_arr#[-1..]
 println(ns_arr)
 ns_arr = n_arr#[..-1]
-println(ns_arr) // Mut doesn't work
+println(ns_arr)
 
-// Negative index
+// Negative index test
 println("Negative index test")
 array_int := [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 println(array_int#[-3..]) // [7, 8, 9]
