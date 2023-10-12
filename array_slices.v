@@ -25,8 +25,8 @@ println(arr2)
 println("Check if b[0] refers to a[2]")
 mut a := [0, 1, 2, 3, 4, 5]
 mut b := a[2..4]
-b[0] = 7 // `b[0]` is referring to `a[2]`
-println(a) // `[0, 1, 7, 3, 4, 5]`
+b[0] = 7 // `b[0]` is NOT referring to `a[2]`
+println(a) // `[0, 1, 2, 3, 4, 5]`
 b << 9
 // `b` has been reallocated and is now independent from `a`
 println(a) // `[0, 1, 7, 3, 4, 5]` - no change
