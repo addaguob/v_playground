@@ -20,6 +20,8 @@ arr2 = arr1[1..3]
 println(arr2)
 
 // TODO: Check if b[0] refers to a[2]
+// Maybe it is updated now.
+
 println("Check if b[0] refers to a[2]")
 mut a := [0, 1, 2, 3, 4, 5]
 mut b := a[2..4]
