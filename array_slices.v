@@ -19,6 +19,8 @@ println(arr2) // ...is index:0 by default
 arr2 = arr1[1..3]
 println(arr2)
 
+// TODO: Check if b[0] refers to a[2]
+println("Check if b[0] refers to a[2]")
 mut a := [0, 1, 2, 3, 4, 5]
 mut b := a[2..4]
 b[0] = 7 // `b[0]` is referring to `a[2]`
