@@ -1,5 +1,5 @@
 mut m := map[string]int{} // a map with `string` keys and `int` values
-m['one'] = 1
+m['one'] = 143
 m['two'] = 2
 println(m['one']) // "1"
 println(m['bad_key']) // "0"
